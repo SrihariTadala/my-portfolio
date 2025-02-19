@@ -54,19 +54,24 @@ h3 {
 	background-color: black;
 }
 
-.fixed-image {
-    width: 363px; /* Example: Set the width to 200px */
-    height: 200px; /* Example: Set the height to 200px */
-    object-fit: cover; /* Optional: Maintain aspect ratio and cover the space */
-    /* Add any other styling you need */
+.profile-pic {
+    width: 90%; /* Use percentage instead of fixed width */
+    max-width: 500px; /* Prevent it from getting too large */
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    position: relative;
+    left: 0px;
+    top: 0px; /* Remove unnecessary positioning */
 }
 
-.fixed-image1 {
-    width: 270px; /* Example: Set the width to 200px */
-    height: 250px; /* Example: Set the height to 200px */
-    object-fit: cover; /* Optional: Maintain aspect ratio and cover the space */
-    /* Add any other styling you need */
+.fixed-image, .fixed-image1 {
+    width: 100%; /* Make images adjust to container */
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
 }
+
 
 .card-work-body {
     width: 100%; /* Ensure it takes up full space */
@@ -149,6 +154,66 @@ h3 {
     border-radius: 10px;
     position: relative;
     left: 0px; /* Ensures it aligns with text */
-    top: -380px; /* Moves the image slightly up */
+    top: -180px; /* Moves the image slightly up */
 
 }
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce text size */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce header size */
+    }
+
+    .profile-container {
+        flex-direction: column; /* Stack items vertically */
+        padding: 20px;
+        height: auto;
+    }
+
+    .profile-pic {
+        max-width: 80%;
+        margin: 0 auto;
+        top: 0; /* Reset positioning */
+    }
+
+    .work-experience-section {
+        padding: 20px; /* Reduce padding */
+        max-width: 90%;
+    }
+
+    .work-card {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .work-card-container {
+        padding: 15px;
+        max-width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .profile-container {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-pic {
+        max-width: 100%;
+    }
+
+    .work-card-container {
+        padding: 10px;
+    }
+}
+
+
