@@ -7,20 +7,21 @@ const categories = [
 	// ["C/C++", "info"]
 ]
 
-
-
 const workExperience = [
+
 	{
-		"title": "Hindustan Petroleum Corporation Limited",
-		"period": "Jan 2023 - Sept 2023",
-		"responsibilities": [
-			"Engineered a robust machine learning algorithm for pipeline anomaly detection, leveraging Support Vector Machine techniques delivered a solution that flagged anomalies 25% faster than previous methods, enhancing response times.",
-			"Attained a 95.93% accuracy rate in an anomaly detection project by employing advanced machine learning algorithms.",
-			"Collaborated with cross-functional teams to define system requirements, resulting in the design of a scalable software architecture that increased user capacity handling by 50% during peak traffic periods.",
-			"Spearheaded the design and development of a website utilizing React JS and Node.js; optimized both front-end and back-end functionalities, resulting in over 3,000 user registrations and enhanced site performance."
-		]
-	}
+        title: "Research Assistant",
+        company: "Portland State University",
+        period: "Dec 2024 - Present",
+    },
+    {
+        title: "Software Developer",
+        company: "Hindustan Petroleum Corporation Limited",
+        period: "Jan 2023 - Sept 2023",
+    },
+   
 ];
+
 
 const projects = [
 	{
