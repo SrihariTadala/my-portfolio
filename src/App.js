@@ -78,7 +78,8 @@ function App() {
 								</a>
 								<a className="link-light" href="https://github.com/KarthikTadala" target="_blank">
 									<i className="bi bi-github"/>
-<a className="link-light" href="mailto:sriharitadala@gmail.com">
+								</a>
+								<a className="link-light" href="mailto:sriharitadala@gmail.com">
     <i className="bi bi-envelope"/>
 </a>
 
@@ -129,13 +130,13 @@ In the words of Mark Zuckerberg, "The biggest risk is not taking any risk… In 
 				{/*	WORK */}
 				<section id="work" className="work-experience-section mt-5">
     <h2>Work Experience</h2>
-    <div className="work-card-container">
-        <WorkCard key={0} work={workExperience[0]} />
-    </div>
+	<div className="work-card-container">
+    {workExperience.map((work, index) => (
+        <WorkCard key={index} work={work} />
+    ))}
+</div>
+
 </section>
-
-
-
 				{/*	PROJECTS */}
 				<section id="projects" className="mt-5">
 					<h2>Projects</h2>
