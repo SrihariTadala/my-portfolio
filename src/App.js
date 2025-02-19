@@ -78,10 +78,10 @@ function App() {
 								</a>
 								<a className="link-light" href="https://github.com/KarthikTadala" target="_blank">
 									<i className="bi bi-github"/>
-								</a>
-								<a className="link-light" href="mailto:sriharitadala@gmail.com" target="_blank">
-									<i className="bi bi-envelope"/>
-								</a>
+<a className="link-light" href="mailto:sriharitadala@gmail.com">
+    <i className="bi bi-envelope"/>
+</a>
+
 								<a className="link-light" href="https://www.instagram.com/tanmay_karthik/" target="_blank">
 									<i className="bi bi-instagram"/>
 								</a>
