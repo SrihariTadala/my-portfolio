@@ -39,6 +39,11 @@ h3 {
 	transition-timing-function: ease;
 }
 
+.btn-outline-danger {
+    margin-bottom: 20px; /* Add space below the button */
+}
+
+
 
 @keyframes animate-chevron {
 	from {
@@ -55,19 +60,22 @@ h3 {
 }
 
 .profile-pic {
-    width: 90%; /* Use percentage instead of fixed width */
-    max-width: 500px; /* Prevent it from getting too large */
+    width: 80%; /* Reduce size for mobile */
+    max-width: 550px; /* Set limit */
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px;
     position: relative;
-    left: 0px;
-    top: 0px; /* Remove unnecessary positioning */
+    left: auto;
+    top: 0; /* Remove negative positioning */
+    display: block;
+    margin: 0 auto; /* Center align */
 }
+
 
 .fixed-image, .fixed-image1 {
     width: 100%; /* Make images adjust to container */
-    max-width: 400px;
+    max-width: 320px;
     height: auto;
     object-fit: cover;
 }
@@ -215,5 +223,27 @@ h3 {
         padding: 10px;
     }
 }
+
+.project-card img {
+    width: 100%;
+    max-width: 320px; /* Adjust to a suitable value */
+    object-fit: cover; /* Prevents distortion */
+    border-radius: 10px;
+    object-fit: cover;
+
+
+}
+
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 320px; /* Adjust as needed */
+    margin: auto;
+    text-align: center; /* Ensures uniform alignment */
+}
+
 
 
