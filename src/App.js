@@ -72,18 +72,18 @@ function App() {
 							<h3>Software Engineer, </h3>
 
 							<div className="hstack gap-3">
-								<a className="link-light" href="https://www.linkedin.com/in/-sriharitadala-"
+								<a className="link-light" href="https://www.linkedin.com/in/-sriharitadala-/"
 								   target="_blank">
 									<i className="bi bi-linkedin"/>
 								</a>
-								<a className="link-light" href="https://github.com/KarthikTadala" target="_blank">
+								<a className="link-light" href="https://github.com/SrihariTadala" target="_blank">
 									<i className="bi bi-github"/>
 								</a>
-								<a className="link-light" href="mailto:sriharitadala@gmail.com">
+								<a className="link-light" href="mailto:sriharitadala28@gmail.com">
     <i className="bi bi-envelope"/>
 </a>
 
-								<a className="link-light" href="https://www.instagram.com/tanmay_karthik/" target="_blank">
+								<a className="link-light" href="https://www.instagram.com/srihari__tadala/" target="_blank">
 									<i className="bi bi-instagram"/>
 								</a>
 							</div>
