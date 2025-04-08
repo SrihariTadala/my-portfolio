@@ -102,7 +102,7 @@ function App() {
 				<section id="about" className="mt-3">
 					<h2>About Me</h2>
 					<p className="lead">
-  Aloha! I'm Srihari, and a problem solver and software engineer passionate about scalable systems, data engineering, and machine learning. Currently, I’m pursuing my Master’s in Computer Science at Portland State University, where I focus on software development, cloud computing, and Large Language Models.
+  Aloha! I'm Srihari, a problem solver and software engineer passionate about scalable systems, data engineering, and machine learning. Currently, I’m pursuing my Master’s in Computer Science at Portland State University, where I focus on software development, cloud computing, and Large Language Models.
   .
 </p>
 <p className="lead">
