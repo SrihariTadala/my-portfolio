@@ -17,7 +17,7 @@ const workExperience = [
     {
         title: "Software Developer",
         company: "Hindustan Petroleum Corporation Limited",
-        period: "August 2022 - Sept 2023",
+        period: "January 2023 - August 2023",
     },
    
 ];
