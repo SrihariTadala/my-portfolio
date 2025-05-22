@@ -118,7 +118,7 @@ Most recently, I built an LLM-Orchestrated Multi-Agent Research Platform, combin
 <p className="lead">
 In the words of Mark Zuckerberg, "The biggest risk is not taking any risk… In a world that’s changing really quickly, the only strategy that is guaranteed to fail is not taking risks." I'm here to embrace challenges, build impactful solutions, and push the boundaries of innovation in the world of software engineering.</p>
 <p className="lead">
-  I'm interested in full-time Software Engineer roles. Please feel free to get in touch with me via email at sriharitadala(at)gmail(dot)com
+  I am interested in full-time Software Engineer roles. Please feel free to get in touch with me via email at sriharitadala(at)gmail(dot)com
 </p>
 
 				</section>
