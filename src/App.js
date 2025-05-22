@@ -102,14 +102,13 @@ function App() {
 				<section id="about" className="mt-3">
 					<h2>About Me</h2>
 					<p className="lead">
-  Aloha! I'm Srihari, a problem solver and software engineer passionate about scalable systems, data engineering, and machine learning. Currently, I’m pursuing my Master’s in Computer Science at Portland State University, where I focus on software development, cloud computing, and Large Language Models.
+  Aloha! I'm Srihari, a problem solver and software engineer passionate about scalable systems and machine learning. Currently, I’m pursuing my Master’s in Computer Science at Portland State University, where I focus on software development and Large Language Models.
   .
 </p>
 <p className="lead">
-My time as a Software Developer at HPCL was a game-changer. I had the opportunity to engineer a machine learning algorithm that enhanced pipeline anomaly detection using Support Vector Machines (SVMs), improving detection times by 25% and achieving an accuracy of 95.93%. Collaborating with cross-functional teams, I played a key role in designing a scalable architecture that boosted user capacity handling by 50% during peak traffic periods</p>
+During my  internship, I worked on a software project where our team built a GitHub bot to streamline issue management. The bot recognized stale issues, sorted them, and recommended tasks based on user contribution history. As a team of four, we adopted Agile practices including scrum meetings, Jenkins for CI, Selenium for automated testing, and Ansible for configuration management.</p>
 <p className="lead">
-One of my most impactful projects was developing a real-time data pipeline for TriMet’s public transportation system. Using Python, PostgreSQL, and Google Cloud, I built a system that processes 1.5 million+ GPS data points daily with optimized bulk insert functionality, reducing processing time by 60%. Additionally, I implemented Google Pub/Sub for real-time messaging and integrated GeoJSON and MapboxGL to create advanced interactive maps. This work resulted in a 40% improvement in data processing speed for public transit vehicles.
-</p>
+Most recently, I built an LLM-Orchestrated Multi-Agent Research Platform, combining LangGraph, RAG, and WebSearch agents to perform parallel information retrieval and generate visually enriched research summaries. The system featured a multi-modal document pipeline (with Docling, Airflow, and AWS S3) for processing text, tables, and images, and used Pinecone for vector search. I also implemented state-driven orchestration to manage agent collaboration across tasks while maintaining context. The platform included a FastAPI backend with real-time WebSockets, JWT authentication, and a Streamlit frontend deployed on GCP.
 <p className="lead">
   Now, for the real talk. Life isn't always a smooth ride. I faced setbacks and uncertainties, just like many others. There was a time when I questioned my path. However, these challenges didn't define me; they fueled my resilience. Switching gears and navigating uncertainties has made me a stronger, more adaptable individual, both in life and in coding.
 </p>
