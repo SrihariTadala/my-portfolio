@@ -27,7 +27,7 @@ const projects = [
 
 
 		{
-		"img": require('./img/projects/NYCTaxi.jpg'),
+		"img": require('./img/projects/multimodal.jpg'),
 		"title": "LearnLab Multimodal Learning Platform",
 		"description": "Developed a LangGraph-based multi-agent learning platform that transforms educational PDFs into five interactive learning formats using OpenAI and Pinecone. Engineered an ETL pipeline with semantic chunking, reducing query latency by 86% and optimizing vector search with Upstash caching. Enabled real-time content delivery using FastAPI and Next.js, while maintaining 99.9% uptime and reducing API calls by 41%.",
 		"techstack": "LangGraph, OpenAI, AWS/GCP, Pinecone, Next.js, FastAPI",
@@ -35,8 +35,9 @@ const projects = [
 		// "category": "HTML/CSS"
 	},
 
+	
 		{
-		"img": require('./img/projects/NYCTaxi.jpg'),
+		"img": require('./img/projects/Agentic.jpg'),
 		"title": "LLM-Powered Research Agent System",
 		"description": "Designed an autonomous research assistant using LangGraph agents with contextual task switching across documents and web sources. Integrated Docling and Airflow for multimodal document parsing and stored extracted data in AWS S3. Deployed a FastAPI backend with JWT-authenticated WebSockets and Streamlit UI, enabling real-time semantic search using Pinecone and supporting scalable multi-source retrieval workflows.",
 		"techstack": "LangGraph, Docling, Pinecone, Streamlit, FastAPI",
