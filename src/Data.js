@@ -24,6 +24,26 @@ const workExperience = [
 
 
 const projects = [
+
+
+		{
+		"img": require('./img/projects/NYCTaxi.jpg'),
+		"title": "LearnLab Multimodal Learning Platform",
+		"description": "Developed a LangGraph-based multi-agent learning platform that transforms educational PDFs into five interactive learning formats using OpenAI and Pinecone. Engineered an ETL pipeline with semantic chunking, reducing query latency by 86% and optimizing vector search with Upstash caching. Enabled real-time content delivery using FastAPI and Next.js, while maintaining 99.9% uptime and reducing API calls by 41%.",
+		"techstack": "LangGraph, OpenAI, AWS/GCP, Pinecone, Next.js, FastAPI",
+		"link": "https://github.com/SrihariTadala",
+		// "category": "HTML/CSS"
+	},
+
+		{
+		"img": require('./img/projects/NYCTaxi.jpg'),
+		"title": "LLM-Powered Research Agent System",
+		"description": "Designed an autonomous research assistant using LangGraph agents with contextual task switching across documents and web sources. Integrated Docling and Airflow for multimodal document parsing and stored extracted data in AWS S3. Deployed a FastAPI backend with JWT-authenticated WebSockets and Streamlit UI, enabling real-time semantic search using Pinecone and supporting scalable multi-source retrieval workflows.",
+		"techstack": "LangGraph, Docling, Pinecone, Streamlit, FastAPI",
+		"link": "https://github.com/SrihariTadala",
+		// "category": "HTML/CSS"
+	},
+	
 	{
 		"img": require('./img/projects/MERN.jpg'),
 		"title": "CurrencyScope Stocks",
@@ -32,6 +52,8 @@ const projects = [
 		"link": "https://github.com/SrihariTadala/CurrencyScope-Stocks",
 		// "category": "HTML/CSS"
 	},
+
+	
 	{
 		"img": require('./img/projects/NYCTaxi.jpg'),
 		"title": "MediConnect",
@@ -40,22 +62,25 @@ const projects = [
 		"link": "https://github.com/SrihariTadala",
 		// "category": "HTML/CSS"
 	},
+	
 	{
 		"img": require('./img/projects/OnlineCar.jpg'),
 		"title": "TriMet GPS Data Pipeline",
-		"description": "Designed an Online Car Parking System that enabled real-time parking management, reservations, and efficient data handling. I utilized Spring and Hibernate for CRUD operations on an MySQL, enhancing user experience by reducing retrieval times. Additionally, I incorporated secure credit card processing, facilitating seamless online transactions for payments",
+		"description": "Implemented a real-time GPS data pipeline using Google Pub/Sub and PostgreSQL to process over 1.5 million transit records. Achieved 60% faster data handling and enabled interactive map visualizations using GeoJSON and MapboxGL for Portland's TriMet system.",
 		"techstack": "Tech Stack: Python, PostgreSQL, Google Cloud, Numpy",
 		"link": "https://github.com/SrihariTadala/TriMet-GPS-Data-Pipeline",
 		// "category": "HTML/CSS"
 	},
+	
 	{
 		"img": require('./img/projects/MedECare.jpg'),
 		"title": "Whisper and Emotion Recognition using LSTM",
-		"description": "Engineered a sophisticated AI bot utilizing the OpenSMILE toolkit for emotion detection, achieving a 95\% accuracy rate in identifying emotions such as happy, sad, anger, and neutral across thousands of samples.",
+		"description": "Engineered a sophisticated AI tool utilizing the OpenSMILE toolkit for emotion detection, achieving a 95\% accuracy rate in identifying emotions such as happy, sad, anger, and neutral across thousands of samples.",
 		"techstack": "Tech Stack: Tensorflow, OpenSMILE, Python",
 		"link": "https://github.com/SrihariTadala/Whisper-and-Emotion-Recognition-using-LSTM",
 		// "category": "Python"
 	},
+	
 	{
 		"img": require('./img/projects/todolist.jpg'),
 		"title": "Symbol recognition and Text file generation for Latex environment",
@@ -64,6 +89,7 @@ const projects = [
 		"link": "https://github.com/KarthikTadala",
 		// "category": "Python"
 	},
+	
 	{
 		"img": require('./img/projects/browserext.jpg'),
 		"title": "Unmasking AI Bias:Benchmarking Models for Fair Hiring",
@@ -72,22 +98,11 @@ const projects = [
 		"link": "https://github.com/SrihariTadala/Unmasking-AI-Bias-Benchmarking-Models-for-Fair-Hiring",
 		// "category": "Python"
 	},
-	{
-		"img": require('./img/projects/Steg.jpg'),
-		"title": "SummarEase:",
-		"description": "Executed a user centric extension that consolidated feedback from 450+ users, creating concise summaries that facilitated data-driven decisions, ultimately increasing user retention rates by 10\% over six months.",
-		"techstack": "Tech Stack:  Tensorflow, Python, NLTK, Gensim, BeautifulSoup  ",
-		"link": "https://github.com/SrihariTadala/Text_Summarizer-",
-		// "category": "Python"
-	},
-	{
-		"img": require('./img/projects/SER.jpg'),
-		"title": "RetinaScan: Deep Learning for Glaucoma Screening",
-		"description": "Our project leverages deep learning to detect and classify glaucoma from fundus images using the Drishti-GS1 dataset. We employ U-Net for optic disc segmentation and VGG16 for classification. Built with Keras, TensorFlow, OpenCV, and Python, this model aids early glaucoma detection, preventing vision loss..",
-		"techstack": "Tech Stack: Python, TensorFlow & Keras, CNN, OpenCV,   ",
-		"link": "https://github.com/SrihariTadala/Glaucoma-Detection-and-Classification",
-		// "category": "Python"
-	},
+	
+
+	
+
+	
 	// {
 	// 	"img": "",
 	// 	"title": "Formula 1 Dashboard",
