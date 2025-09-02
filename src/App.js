@@ -87,9 +87,15 @@ function App() {
 									<i className="bi bi-instagram"/>
 								</a>
 							</div>
-							<a className="btn btn-outline-danger mt-4 px-3 py-2 d-block mx-auto" href="/resume.pdf" download>
-    Contact me for Resume
+<a
+  className="btn btn-outline-danger mt-4 px-3 py-2 d-block mx-auto"
+  href="https://www.linkedin.com/in/-sriharitadala-/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Contact me for Resume
 </a>
+
 
 
 						</div>
