@@ -112,7 +112,7 @@ function App() {
   .
 </p>
 <p className="lead">
-During my  internship, I worked on a software project where our team built a GitHub bot to streamline issue management. The bot recognized stale issues, sorted them, and recommended tasks based on user contribution history. As a team of four, we adopted Agile practices including scrum meetings, Jenkins for CI, Selenium for automated testing, and Ansible for configuration management.</p>
+During my  work, I worked on a software project where our team built a GitHub bot to streamline issue management. The bot recognized stale issues, sorted them, and recommended tasks based on user contribution history. As a team of four, we adopted Agile practices including scrum meetings, Jenkins for CI, Selenium for automated testing, and Ansible for configuration management.</p>
 <p className="lead">
 Most recently, I built an LLM-Orchestrated Multi-Agent Research Platform, combining LangGraph, RAG, and WebSearch agents to perform parallel information retrieval and generate visually enriched research summaries. The system featured a multi-modal document pipeline (with Docling, Airflow, and AWS S3) for processing text, tables, and images, and used Pinecone for vector search. I also implemented state-driven orchestration to manage agent collaboration across tasks while maintaining context. The platform included a FastAPI backend with real-time WebSockets, JWT authentication, and a Streamlit frontend deployed on GCP.
 </p>
