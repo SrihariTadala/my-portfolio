@@ -10,14 +10,14 @@ const categories = [
 const workExperience = [
 
 	{
-        title: "Software Research Engineer ",
+        title: "Software Engineer ",
         company: "Portland State University",
         period: "Dec 2024 - Present",
     },
     {
         title: "Software Engineer",
         company: "Hindustan Petroleum Corporation Limited",
-        period: "January 2023 - August 2023",
+        period: "August 2022 - August 2023",
     },
    
 ];
