@@ -60,17 +60,22 @@ h3 {
 }
 
 .profile-pic {
-    width: 80%; /* Reduce size for mobile */
-    max-width: 550px; /* Set limit */
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    position: relative;
-    left: auto;
-    top: 0; /* Remove negative positioning */
-    display: block;
-    margin: 0 auto; /* Center align */
+  justify-self: end;    /* push image to the right edge of its column */
+  margin-right: 20px;   /* fine-tune how close to text */
 }
+
+
+/* PROFILE IMAGE — single source of truth */
+.profile-pic {
+  width: clamp(260px, 28vw, 340px); /* desktop size; responsive */
+  height: auto;
+  max-height: 58vh;                 /* prevents tall overflow */
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
+  position: static;
+}
+
 
 
 .fixed-image, .fixed-image1 {
@@ -157,16 +162,6 @@ h3 {
   position: static;
 }
 
-/* PROFILE IMAGE — single source of truth */
-.profile-pic {
-  width: 320px;         /* tweak 280–360px to taste */
-  max-width: 40vw;
-  max-height: 60vh;     /* avoid overflow on tall images */
-  height: auto;
-  object-fit: contain;  /* keep full subject visible */
-  display: block;
-  border-radius: 10px;
-}
 
 /* Remove any previous overrides */
 .profile-pic { left:auto; top:auto; position:static; }
