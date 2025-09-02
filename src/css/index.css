@@ -144,27 +144,49 @@ h3 {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 
+/* HERO LAYOUT */
 .profile-container {
-    display: flex;
-    align-items: center; /* Ensures the image and text align properly */
-    justify-content: flex-start; /* Moves image closer to text */
-    height: 90vh;
-    width: 100%;
-    padding: 0 120px; /* Adjust spacing for better positioning */
-    position: relative;
+  display: grid;
+  grid-template-columns: 420px 1fr; /* image | text */
+  align-items: center;              /* vertical centering */
+  justify-content: center;          /* center the 2-col grid on page */
+  gap: 48px;
+  height: min(85vh, 820px);
+  width: 100%;
+  padding: 0 5vw;
+  position: static;
 }
 
-
+/* PROFILE IMAGE — single source of truth */
 .profile-pic {
-    width: 700px; /* Increase size */
-    height: auto;
-    object-fit: contain; /* Ensures full visibility */
-    border-radius: 10px;
-    position: relative;
-    left: 0px; /* Ensures it aligns with text */
-    top: -180px; /* Moves the image slightly up */
-
+  width: 320px;         /* tweak 280–360px to taste */
+  max-width: 40vw;
+  max-height: 60vh;     /* avoid overflow on tall images */
+  height: auto;
+  object-fit: contain;  /* keep full subject visible */
+  display: block;
+  border-radius: 10px;
 }
+
+/* Remove any previous overrides */
+.profile-pic { left:auto; top:auto; position:static; }
+
+/* Mobile stack */
+@media (max-width: 900px) {
+  .profile-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: auto;
+    padding: 24px;
+    gap: 24px;
+  }
+  .profile-pic {
+    max-width: 80vw;
+    max-height: 50vh;
+  }
+  h1 { text-align: center; }
+}
+
 
 
 @media (max-width: 768px) {
