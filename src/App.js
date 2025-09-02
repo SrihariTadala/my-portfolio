@@ -79,9 +79,15 @@ function App() {
 								<a className="link-light" href="https://github.com/SrihariTadala" target="_blank">
 									<i className="bi bi-github"/>
 								</a>
-								<a className="link-light" href="mailto:sriharitadala28@gmail.com">
-    <i className="bi bi-envelope"/>
+<a
+  className="link-light"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=sriharitadala28@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="bi bi-envelope"/>
 </a>
+
 
 								<a className="link-light" href="https://www.instagram.com/srihari__tadala/" target="_blank">
 									<i className="bi bi-instagram"/>
