@@ -89,9 +89,7 @@ function App() {
 </a>
 
 
-								<a className="link-light" href="https://www.instagram.com/srihari__tadala/" target="_blank">
-									<i className="bi bi-instagram"/>
-								</a>
+
 							</div>
 <a
   className="btn btn-outline-danger mt-4 px-3 py-2 d-block mx-auto"
