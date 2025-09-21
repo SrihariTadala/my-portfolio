@@ -1,4 +1,4 @@
-import Masthead from './img/pic1.jpg';
+import Masthead from './img/33.jpg';
 import {useState} from "react";
 import ProjectCard from "./Components/ProjectCard";
 import WorkCard from "./Components/WorkCard";
