@@ -19,11 +19,7 @@ const workExperience = [
         company: "Hindustan Petroleum Corporation Limited",
         period: "January 2023 - August 2023",
     },
-		{
-        title: "Full Stack Engineer ",
-        company: "IEEE",
-        period: "May 2020 - May 2023",
-    },
+	
    
 ];
 
