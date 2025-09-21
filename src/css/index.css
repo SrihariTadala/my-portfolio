@@ -9,9 +9,11 @@ body {
 	background-color: #121212;
 	color: #EEEEEE;
 }
-
 #header {
-	height: 90vh;
+  display: flex;
+  align-items: center;   /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  height: 100vh;         /* full height */
 }
 
 h1 {
@@ -153,13 +155,16 @@ h3 {
 .profile-container {
   display: grid;
   grid-template-columns: 420px 1fr; /* image | text */
-  align-items: center;              /* vertical centering */
-  justify-content: center;          /* center the 2-col grid on page */
+  align-items: center;              /* vertical centering within row */
+  justify-content: center;          /* center horizontally */
   gap: 48px;
-  height: min(85vh, 820px);
+
+  height: 100vh;        /* take full viewport */
   width: 100%;
   padding: 0 5vw;
-  position: static;
+
+  /* Add centering for the entire block */
+  place-items: center;  /* shorthand: centers both axes */
 }
 
 
