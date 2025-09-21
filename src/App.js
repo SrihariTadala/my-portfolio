@@ -113,7 +113,6 @@ function App() {
 					<h2>About Me</h2>
 					<p className="lead">
   Aloha! I'm Srihari, a software engineer and problem solver who loves scalable systems and generative AI. I completed my Master's degree in Computer Science at Portland State University. My main areas of study are software engineering and large language models.
-  .
 </p>
 <p className="lead">
 At PSU, I made a SaaS survey platform with translation tools, better CI/CD pipelines, and tests that covered 95% of the code.  This cut the number of bugs that came up after the release in half.  I changed the ACE Analytics platform at HP from a single design to microservices and made a serverless AWS framework using Lambda and DynamoDB.  This sped up testing and made the system more flexible.  I was in charge of creating a student portal for IEEE that had more than 2,000 users.  In Python and Java, I made safe backends and reusable React components.<p className="lead">
