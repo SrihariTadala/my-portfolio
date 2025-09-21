@@ -112,25 +112,16 @@ function App() {
 				<section id="about" className="mt-3">
 					<h2>About Me</h2>
 					<p className="lead">
-  Aloha! I'm Srihari, a problem solver and software engineer passionate about scalable systems and machine learning. Currently, I’m pursuing my Master’s in Computer Science at Portland State University, where I focus on software development and Large Language Models.
+  Aloha! I'm Srihari, a software engineer and problem solver who loves scalable systems and generative AI. I completed my Master's degree in Computer Science at Portland State University. My main areas of study are software engineering and large language models.
   .
 </p>
 <p className="lead">
-During my  work, I worked on a software project where our team built a GitHub bot to streamline issue management. The bot recognized stale issues, sorted them, and recommended tasks based on user contribution history. As a team of four, we adopted Agile practices including scrum meetings, Jenkins for CI, Selenium for automated testing, and Ansible for configuration management.</p>
-<p className="lead">
+At PSU, I made a SaaS survey platform with translation tools, better CI/CD pipelines, and tests that covered 95% of the code.  This cut the number of bugs that came up after the release in half.  I changed the ACE Analytics platform at HP from a single design to microservices and made a serverless AWS framework using Lambda and DynamoDB.  This sped up testing and made the system more flexible.  I was in charge of creating a student portal for IEEE that had more than 2,000 users.  In Python and Java, I made safe backends and reusable React components.<p className="lead">
 Most recently, I built an LLM-Orchestrated Multi-Agent Research Platform, combining LangGraph, RAG, and WebSearch agents to perform parallel information retrieval and generate visually enriched research summaries. The system featured a multi-modal document pipeline (with Docling, Airflow, and AWS S3) for processing text, tables, and images, and used Pinecone for vector search. I also implemented state-driven orchestration to manage agent collaboration across tasks while maintaining context. The platform included a FastAPI backend with real-time WebSockets, JWT authentication, and a Streamlit frontend deployed on GCP.
 </p>
 <p className="lead">
-  Now, for the real talk. Life isn't always a smooth ride. I faced setbacks and uncertainties, just like many others. There was a time when I questioned my path. However, these challenges didn't define me; they fueled my resilience. Switching gears and navigating uncertainties has made me a stronger, more adaptable individual, both in life and in coding.
-</p>
-<p className="lead">
-  As I dive into the world of software engineering, I approach each coding challenge with the same tenacity that helped me overcome personal hurdles. My story is a testament to the belief that setbacks are not roadblocks but opportunities for growth.
-</p>
-<p className="lead">
-In the words of Mark Zuckerberg, "The biggest risk is not taking any risk… In a world that’s changing really quickly, the only strategy that is guaranteed to fail is not taking risks." I'm here to embrace challenges, build impactful solutions, and push the boundaries of innovation in the world of software engineering.</p>
-<p className="lead">
-  I am interested in full-time Software Engineer roles. Please feel free to get in touch with me via email at sriharitadala(at)gmail(dot)com
-</p>
+I like to solve hard problems with a mix of curiosity and determination, and I'm excited to bring that energy to full-time jobs as a software engineer.</p>
+
 
 				</section>
 
