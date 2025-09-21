@@ -120,7 +120,8 @@ At PSU, I made a SaaS survey platform with translation tools, better CI/CD pipel
 Most recently, I built an LLM-Orchestrated Multi-Agent Research Platform, combining LangGraph, RAG, and WebSearch agents to perform parallel information retrieval and generate visually enriched research summaries. The system featured a multi-modal document pipeline (with Docling, Airflow, and AWS S3) for processing text, tables, and images, and used Pinecone for vector search. I also implemented state-driven orchestration to manage agent collaboration across tasks while maintaining context. The platform included a FastAPI backend with real-time WebSockets, JWT authentication, and a Streamlit frontend deployed on GCP.
 </p>
 <p className="lead">
-I like to solve hard problems with a mix of curiosity and determination, and I'm excited to bring that energy to full-time jobs as a software engineer.</p>
+I like to solve hard problems with a mix of curiosity and determination, and I'm excited to bring that energy to full-time jobs as a software engineer.
+</p>
 
 
 				</section>
