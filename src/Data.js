@@ -12,7 +12,7 @@ const workExperience = [
 	{
         title: "Software Engineer ",
         company: "Portland State University",
-        period: "Dec 2024 - Present",
+        period: "Jan 2025 - Present",
     },
     {
         title: "Software Engineer",
