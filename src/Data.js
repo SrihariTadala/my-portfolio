@@ -36,16 +36,24 @@ const projects = [
 		// "category": "HTML/CSS"
 	},
 
-	
-		{
-		"img": require('./img/projects/Agentic.jpg'),
-		"title": "LLM-Powered Research Agent System",
-		"description": "Designed an autonomous research assistant using LangGraph agents with contextual task switching across documents and web sources. Integrated Docling and Airflow for multimodal document parsing and stored extracted data in AWS S3. Deployed a FastAPI backend with JWT-authenticated WebSockets and Streamlit UI, enabling real-time semantic search using Pinecone and supporting scalable multi-source retrieval workflows.",
-		"techstack": "LangGraph, Docling, Pinecone, Streamlit, FastAPI",
-		"link": "https://github.com/SrihariTadala",
-		// "category": "HTML/CSS"
-	},
-	
+
+	{
+  "img": require('./img/projects/llm_inference.jpg'),
+  "title": "LLM Inference & Training System",
+  "description": "Engineered a modular LLM training and inference framework implementing transformer architectures like LLaMA-2, Mistral, and DeepSeek-style MoE from scratch. Developed custom attention layers, normalization modules, dataloaders, and training loops with mixed-precision, FlashAttention, and model-level optimizations.",
+  "techstack": "PyTorch, CUDA, DDP, FlashAttention, Python, YAML",
+  "link": "https://github.com/SrihariTadala/LLM_Inference_System"
+},
+
+
+	{
+  "img": require('./img/projects/careevents.jpg'),
+  "title": "CareEvents AI Powered Elder Engagement",
+  "description": "Built an intelligent event-planning platform for assisted-living homes that uses AI insights from resident conversations, preferences, and activity history to generate personalized activities. Implemented audio-based profiling with speech-to-text, preference extraction, and AI-generated summaries to help caregivers understand each elder’s unique background.",
+  "techstack": "Next.js, FastAPI, OpenAI, Whisper, PostgreSQL, LangChain",
+  "link": "https://github.com/SrihariTadala/Elderconnect"
+},
+
 	{
 		"img": require('./img/projects/MERN.jpg'),
 		"title": "CurrencyScope Stocks",
@@ -56,14 +64,14 @@ const projects = [
 	},
 
 	
-	{
-		"img": require('./img/projects/NYCTaxi.jpg'),
-		"title": "MediConnect",
-		"description": "Engineered a machine learning and NLP-powered chatbot to enhance user engagement, offering automated assistance and personalized recommendations and modernized healthcare e-commerce platform to streamline procurement and inventory management, leveraging Flask, PostgreSQL, and JavaScript for seamless transactions..",
-		"techstack": "Python, Flask, PostgreSQL, JavaScript, HTML, CSS",
-		"link": "https://github.com/SrihariTadala",
-		// "category": "HTML/CSS"
-	},
+{
+  "img": require('./img/projects/splitly.jpg'),
+  "title": "SplitFlow AI Receipt & Bill Splitting ",
+  "description": "Built a modern expense-splitting platform that uses GPT-4o Vision to extract items, prices, and totals directly from receipt images. Implemented a full session-based workflow with friend management, smart item tagging, and automatic settlement calculation.",
+  "techstack": "Next.js, Prisma, SQLite, OpenAI GPT-4o Vision, TypeScript",
+  "link": "https://github.com/SrihariTadala/Splitly"
+},
+
 	
 	{
 		"img": require('./img/projects/OnlineCar.jpg'),
@@ -92,18 +100,6 @@ const projects = [
 		// "category": "Python"
 	},
 	
-	{
-		"img": require('./img/projects/browserext.jpg'),
-		"title": "Unmasking AI Bias:Benchmarking Models for Fair Hiring",
-		"description": "Developed a multi-language AI-driven resume screening system using LangChain, Google AI, and Streamlit, improving processing speed by 50% and enhancing bias analysis. Implemented explainable AI for transparent hiring decisions and proposed bias mitigation strategies. Compared AI models (Grok-2 Beta, Cohere, Gemini) using Matplotlib and extracted resumes with PyPDF2 for analysis..",
-		"techstack": "Tech Stack: PDF2Image, LangChain, Streamlit, Python.",
-		"link": "https://github.com/SrihariTadala/Unmasking-AI-Bias-Benchmarking-Models-for-Fair-Hiring",
-		// "category": "Python"
-	},
-	
-
-	
-
 	
 	// {
 	// 	"img": "",
